@@ -16,9 +16,9 @@
 
     <!-- Strings related to Settings -->
 
-   <string name="pref_location_title">Location</string>
-   <string name="pref_location_key">location</string>
-   <string name="pref_location_default">94043</string>
+    <string name="pref_location_title">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">94043</string>
 
     <!-- List Preference related Items -->
 
@@ -27,9 +27,12 @@
         <item>Imperial</item>
     </string-array>
 
-   <string name="pref_unit_title">Preferred Units</string>
-   <string name="pref_unit_key">unit</string>
-   <string name="pref_unit_default">Metric</string>
+    <string name="pref_unit_title">Preferred Units</string>
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_unit_default">Metric</string>
+
+    <string name="pref_units_metric">Metric</string>
+    <string name="pref_units_imperial">Imperial</string>
 
 
 </resources>
