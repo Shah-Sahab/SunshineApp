@@ -11,7 +11,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
 /**
@@ -66,7 +65,7 @@ public class SettingsActivity extends PreferenceActivity {
             // updated to reflect the new value, per the Android Design
             // guidelines.
             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
-            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_unit_key)));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
         }
 
         @Override
